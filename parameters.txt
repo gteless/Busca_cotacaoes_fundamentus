@@ -1,0 +1,2 @@
+url_pesquisa = https://www.fundamentus.com.br/detalhes.php?papel=[]
+url_home = https://www.fundamentus.com.br/index.php
