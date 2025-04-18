@@ -22,14 +22,17 @@ Este projeto automatiza o processo de consulta de cotações de ações no site 
 
 ## Estrutura de Pastas
 
+![image](https://github.com/user-attachments/assets/2fcb76f2-8518-405c-85b9-97be4879bb4e)
+
 O projeto cria as seguintes pastas para organizar o processamento dos arquivos:
 
-1. **INPUT**: Pasta onde o usuário deve colocar os arquivos Excel a serem processados.
-2. **PROCESSAMENTO**: Pasta onde os arquivos são temporariamente armazenados enquanto são processados.
-3. **FINALIZADO**: Pasta onde os arquivos processados são movidos após a finalização do processo.
-4. **LOG**: Pasta onde são gerados logs detalhados do que foi feito durante o processo. Um arquivo de log será criado com a data e hora de execução, contendo informações detalhadas sobre o andamento do processamento.
+1. **LOG**: Pasta onde são gerados logs detalhados do que foi feito durante o processo. Um arquivo de log será criado com a data e hora de execução, contendo informações detalhadas sobre o andamento do processamento.
+2. **INPUT**: Pasta onde o usuário deve colocar os arquivos Excel a serem processados.
+3. **PROCESSAMENTO**: Pasta onde os arquivos são temporariamente armazenados enquanto são processados.
+4. **FINALIZADO**: Pasta onde os arquivos processados são movidos após a finalização do processo.
 
-Exemplo de um arquivo de log gerado:
+
+## Exemplo de um arquivo de log gerado:
 
 2025-04-17 23:59:28 - =========================== INICIO - Valida Arquivo ================================ 
 
