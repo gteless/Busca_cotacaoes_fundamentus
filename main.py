@@ -168,8 +168,13 @@ if len(CaminhoArquivoExcel) > 0:
             WHERE [Ticker] = '{ticker}'
         """
 
-        # Executa a query com os parâmetros
-        cursor_update.execute(Query)
+        # Executa a query
+        try:
+            cursor_update.execute(Query)
+        except pyodbc.Error as e:
+            mensagem = f"Erro ao executar a query: {e}"
+            EscreveLog(mensagem)
+            exit(1)
 
     cursor_update.close()
     cursor_select.close()
